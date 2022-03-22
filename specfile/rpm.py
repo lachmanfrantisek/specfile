@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Iterator, List, Optional, Tuple
 
 import rpm
+
 from specfile.exceptions import MacroRemovalException, RPMException
 
 MAX_REMOVAL_RETRIES = 20
